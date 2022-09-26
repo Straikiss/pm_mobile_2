@@ -26,7 +26,6 @@ input:focus {
 }
 
 section {
-  width: 400px;
   padding: 30px;
 }
 
@@ -119,6 +118,8 @@ a {
 .privacy-block {
   position: absolute;
   bottom: 30px;
+  left: 30px;
+  right: 30px;
 }
 
 .privacy {
@@ -135,6 +136,18 @@ a {
 
 .logo {
   height: 90px;
-  background: #6F42C1;
+  width: 150px;
+  background: url(logo.svg);
   margin-bottom: 60px;
+}
+
+.flag {
+  background: url(flag.svg);
+  width: 50px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  margin-top: -35px;
+  border-radius: 5px;
+  right: 35px;
 }
